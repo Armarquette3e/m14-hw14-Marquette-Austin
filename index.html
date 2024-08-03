@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <!-- your code here -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <a class="navbar-brand" href="#">My Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hobbies</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Career Goals</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!--Grid, Cards and Buttons-->
+  <div class="container mt-4">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">About Me</h5>
+            <p class="card-text">Hello! I'm a passionate traveler and foodie who has had the pleasure of
+               visiting all 50 states in the USA.
+            </p>
+            <div class="collapse" id="collapseTarget1">
+              <p>My travels have allowed me to explore diverse cultures and savor unique cuisines in each city I visit, making food exploration a beloved hobby
+                and interest of mine.
+              </p>
+            </div>
+            <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#collapseTarget1"
+              aria-expanded="false" aria-controls="collapseTarget1">
+              Read More
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Hobbies</h5>
+            <p class="card-text">
+              <li>Traveling</li>
+              <li>Exploring new cuisines</li>
+              <li>Photography</li>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h5 class="card-title mt-5">Career Goals</h5>
+    <p>
+      As a dedicated and passionate student of web development, my career goals are centered around becoming a
+      proficient
+      full-stack developer. I am committed to continuously enhancing my skills in front-end and back-end
+      technologies,
+      with a particular interest in JavaScript frameworks, responsive design, and database management.
+    </p>
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">
+                In the short term, I aim to secure an internship or junior developer position where I can apply my knowledge,
+                learn
+                from experienced professionals, and contribute to real-world projects. I am eager to work in a collaborative
+                environment that values innovation and continuous learning.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">
+                In the long term, my goal is to become a lead developer or technical architect, driving the development of
+                large-scale applications and systems. I aspire to be a part of a forward-thinking company that leverages
+                cutting-edge technologies to solve complex problems and deliver outstanding user experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <p class="card-text">
+                Ultimately, I hope to use my skills to make a positive impact in the tech industry, whether through mentoring
+                upcoming developers, contributing to open-source projects, or leading initiatives that foster diversity and
+                inclusion in technology.
+              </p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+  <!-- Footer -->
+  <footer class="bg-secondary text-center text-lg-start">
+    <div class="container p-4 mt-3">
+      <div class="row">
+        <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">About This Site</h5>
+          <p>
+            This site is a personal webpage showcasing my hobbies, interests, and career goals.
+          </p>
+        </div>
+        
+        <div class="col-lg-2 col-md-12 mb-4 mb-md-0">
+          <h5 class="text-uppercase">Contact</h5>
+          <ul class="list-unstyled mb-0">
+            <li><a href="mailto:austinrmarquette@gmail.com" class="text-dark">Email Me</a></li>
+            <li><a href="https://github.com/Armarquette3e" class="text-dark" target="_blank">GitHub</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="text-center p-3 bg-secondary" style="border-top: 1px solid #000000;">
+      &copy; 2024 Your Name. All rights reserved.
+    </div>
+  </footer>
+  
+  <!-- Bootstrap JavaScript -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
