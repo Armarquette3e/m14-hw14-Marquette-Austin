@@ -10,29 +10,34 @@ This webpage highlights my hobbies, interests, and career goals using Bootstrap 
 
 # Components Used
 
-## Navbar
+### Navbar
 
 Purpose: Provides a responsive navigation menu.
+
 Features: Branding, toggle button for mobile, navigation links.
 
-## Grid System
+### Grid System
 
 Purpose: Creates a responsive layout.
+
 Features: 12-column grid, responsive breakpoints for different screen sizes.
 
-## Spacing Utilities
+### Spacing Utilities
 
 Purpose: Controls margin and padding.
+
 Features: Margin utilities (e.g., mt-4, mb-4).
 
-## Cards
+### Cards
 
 Purpose: Flexible content containers.
+
 Features: Card body, title, text, and optional buttons.
 
-## Buttons
+### Buttons
 
 Purpose: Clickable elements for actions.
+
 Features: Various styles (e.g., primary), used inside cards for call-to-action.
 
 &nbsp;
