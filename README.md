@@ -1,19 +1,43 @@
 # Assignment 14: Use a CSS and JavaScript Framework to Add Interactivity to a Website
 
 &nbsp;
-## Background
 
-This assignment is designed to familiarize you with using pre-built CSS and JavaScript in your websites through a CSS framework. You will use [Twitter's Bootstrap framework](https://getbootstrap.com/docs/5.1/getting-started/introduction/) for this assignment.
+# Overview
 
-&nbsp;
-## Setup
-
-Create a git repository titled `m14-hw14-lastname-firstname` and clone the repo to your computer. Copy the `index.html` file from the `unsolved` folder into the root directory of your repository folder.
-
-
+This webpage highlights my hobbies, interests, and career goals using Bootstrap for a responsive design.
 
 &nbsp;
+
+# Components Used
+
+## Navbar
+
+Purpose: Provides a responsive navigation menu.
+Features: Branding, toggle button for mobile, navigation links.
+
+## Grid System
+
+Purpose: Creates a responsive layout.
+Features: 12-column grid, responsive breakpoints for different screen sizes.
+
+## Spacing Utilities
+
+Purpose: Controls margin and padding.
+Features: Margin utilities (e.g., mt-4, mb-4).
+
+## Cards
+
+Purpose: Flexible content containers.
+Features: Card body, title, text, and optional buttons.
+
+## Buttons
+
+Purpose: Clickable elements for actions.
+Features: Various styles (e.g., primary), used inside cards for call-to-action.
+
+&nbsp;
+
 ## Resources
 
-* [Bootstrap Documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
-* [Bootstrap Grid System on W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
+- [Bootstrap Documentation](https://getbootstrap.com/docs/5.1/getting-started/introduction/)
+- [Bootstrap Grid System on W3 Schools](https://www.w3schools.com/bootstrap/bootstrap_grid_system.asp)
